@@ -10,8 +10,8 @@ module FormtasticBootstrap
             # Bootstrap defines class 'label' too, so remove the
             # one that gets created by Formtastic.
             options[:class] = options[:class].reject { |c| c == 'label' }
-            options[:class] << " control-label"
-            options[:class] << input_html_options[:label_class]
+           # options[:class] << " control-label"
+           # options[:class] << input_html_options[:label_class]
           end
         end
 
